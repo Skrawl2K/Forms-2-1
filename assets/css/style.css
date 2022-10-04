@@ -1,0 +1,74 @@
+/* ===================== GENERELL =========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 10px;
+    font-fa;
+}
+
+.margin1 {
+    margin: 0.5rem 1rem;
+}
+
+.width1 {
+    width: 22rem;
+}
+
+.linehight1 {
+    padding-top: 5px;
+}
+
+/* ===================== HEADER =========================== */
+header {
+    background-color: rgb(96, 206, 169);
+    text-align: center;
+    height: 4rem;
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    padding-top: 1rem;
+    font-weight: 150;
+}
+
+/* ===================== MAIN =========================== */
+
+section {
+    max-width: 25rem;
+    background-color: rgb(211, 211, 211);
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem 0 -0.5rem;
+}
+
+button {
+    background-color: rgb(96, 206, 169);
+    color: #ffffff;
+    width: 20rem;
+    height: 3rem;
+}
+
+button:hover {
+    background-color: rgb(84, 179, 147);
+}
+
+/* ===================== FOOTER =========================== */
